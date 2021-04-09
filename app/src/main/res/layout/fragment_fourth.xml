@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourthFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/RejouerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rejouer"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="489dp" />
+
+        <Button
+            android:id="@+id/MenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            tools:layout_editor_absoluteX="260dp"
+            tools:layout_editor_absoluteY="489dp" />
+
+        <TextView
+            android:id="@+id/Score1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#FFEB3B"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="149dp" />
+
+        <TextView
+            android:id="@+id/Score2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#E82F2F"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="154dp"
+            tools:layout_editor_absoluteY="222dp" />
+
+        <TextView
+            android:id="@+id/Score3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#2196F3"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="164dp"
+            tools:layout_editor_absoluteY="289dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
